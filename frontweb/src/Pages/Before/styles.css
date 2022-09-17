@@ -1,0 +1,39 @@
+.pesquisa {
+  padding: 54px 90px;
+}
+.content-before {
+  background-color: #e6f7ff;
+  border-radius: 16px;
+  height: 270px;
+  padding: 54px 31px;
+}
+
+.input-before {
+  padding:12px 0px 24px;
+  
+}
+.input-before input{
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  width: 298px;
+  height: 40px;
+}
+.text-before {
+  font-weight: 500;
+  font-size: 38px;
+  color: #262626;
+}
+
+.content-button-before {
+  width: 101px;
+  background-color: #1890ff;
+  border: 0;
+  border-radius: 4px;
+}
+.content-button-before h1{
+  padding-top: 3px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+
+}

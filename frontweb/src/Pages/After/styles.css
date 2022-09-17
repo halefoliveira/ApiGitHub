@@ -1,0 +1,29 @@
+.content-after{
+  padding: 54px 90px;
+}
+
+
+
+.content-after-sub{
+  padding: 35px;
+  background-color: #F5F5F5;
+  height: 334px;
+  border-radius: 8px;
+  display: flex;
+  
+}
+.informations{
+  padding: 15px;
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+
+
+}
+.informations h1{
+  color:#1890FF;
+ font-weight: 500;
+ font-size: 20px;
+}
+

@@ -1,0 +1,30 @@
+.content-home{
+  padding: 27px 41px;
+}
+
+.content-home h2 {
+  font-weight: 700;
+  font-size: 48px;
+}
+.content-home h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color:#7E7E7E ;
+}
+
+
+.button-home{
+  padding-left: 41px;
+}
+.content-button{
+  background-color: #1890FF;
+  border: 0;
+  border-radius: 4px;
+}
+
+.content-button p {
+  color: #fff;
+  padding: 8px 18px ;
+  margin-bottom: 0;
+}
+
