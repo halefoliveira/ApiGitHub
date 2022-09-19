@@ -48,6 +48,7 @@ const Before = () => {
           </div>
           <form onSubmit={handleSubmit}>
             <div className="input-before">
+            <div className="styling">
               <input
                 type="text"
                 name="users"
@@ -56,12 +57,14 @@ const Before = () => {
                 placeholder="Usuario GitHub"
                 onChange={handleChange}
               />
-
-              <div class-className="button-before">
-                <button type="submit" className="content-button-before">
-                  Encontrar
-                </button>
               </div>
+              
+                <div className="button-before">
+                  <button type="submit" className="content-button-before">
+                    Encontrar
+                  </button>
+                </div>
+              
             </div>
           </form>
         </div>
@@ -70,11 +73,11 @@ const Before = () => {
         <div className="content-after">
           <div className="content-after-sub">
             <div>
-            <img className="content-img" src={address.avatar_url} alt="Girl in a jacket" width="247" height="247"/>
-    
+              <img className="content-img" src={address.avatar_url} alt="Girl in a jacket" width="247" height="247" />
+
             </div>
-            <div className="informations">
-              <h1>Informações</h1>
+            <div className="content-informations">
+              <h2>Informações</h2>
 
               <Informations
                 url={address.url}

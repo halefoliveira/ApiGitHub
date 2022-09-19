@@ -23,12 +23,16 @@
   font-size: 38px;
   color: #262626;
 }
-
+.styling{
+ margin-bottom: 10px;
+ 
+}
 .content-button-before {
   width: 101px;
   background-color: #1890ff;
   border: 0;
   border-radius: 4px;
+  margin-top: 10px;
 }
 .content-button-before h1{
   padding-top: 3px;
@@ -52,7 +56,7 @@
   display: flex;
   
 }
-.informations{
+.content-informations{
   padding: 15px;
   background-color: #fff;
   width: 100%;
@@ -61,10 +65,16 @@
 
 
 }
-.informations h1{
+.content-informations h2{
   color:#1890FF;
- font-weight: 500;
- font-size: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.content-informations h1{
+ color:#737373;
+ font-weight: 700;
+ font-size: 16px;
 }
 
 .content-img{
